@@ -1,17 +1,14 @@
-Ext.define('FBT.model.form.FormInfo', {
+Ext.define('FBT.model.form.FormQuestion', {
 	extend: 'Ext.data.Model',
 	
 	fields: [{
 		name: 'id',
 		type: 'auto'
 	}, {
-		name: 'name',
+		name: 'questionText',
 		type: 'string'
 	}, {
-		name: 'title',
-		type: 'string'
-	}, {
-		name: 'description',
+		name: 'type',
 		type: 'string'
 	}, {
 		name: 'enabled',
@@ -28,10 +25,5 @@ Ext.define('FBT.model.form.FormInfo', {
 	}, {
 		name: 'modifiedBy',
 		type: 'string'
-	}],
-	
-	hasMany: [{
-		model: 'FBT.model.form.FormQuestion',
-		name: 'questions'
 	}]
 });
