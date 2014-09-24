@@ -25,5 +25,10 @@ Ext.define('FBT.model.form.FormQuestion', {
 	}, {
 		name: 'modifiedBy',
 		type: 'string'
+	}],
+	
+	hasMany: [{
+		model: 'FBT.model.form.QuestionOption',
+		name: 'options'
 	}]
 });

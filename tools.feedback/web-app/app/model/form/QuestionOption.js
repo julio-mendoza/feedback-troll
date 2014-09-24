@@ -1,4 +1,4 @@
-Ext.define('FBT.model.form.FormQuestion', {
+Ext.define('FBT.model.form.QuestionOption', {
 	extend: 'Ext.data.Model',
 	
 	fields: [{
