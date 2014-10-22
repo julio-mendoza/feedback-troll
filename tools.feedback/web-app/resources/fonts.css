@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'fbt-icons';
+    src:url('fonts/fbt.eot?-kv9en3');
+    src:url('fonts/fbt.eot?#iefix-kv9en3') format('embedded-opentype'),
+        url('fonts/fbt.woff?-kv9en3') format('woff'),
+        url('fonts/fbt.ttf?-kv9en3') format('truetype'),
+        url('fonts/fbt.svg?-kv9en3#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,6 +1,8 @@
 Ext.define('FBT.model.form.FormInfo', {
 	extend: 'Ext.data.Model',
 	
+	requires: ['FBT.model.form.FormQuestion'],
+	
 	fields: [{
 		name: 'id',
 		type: 'auto'

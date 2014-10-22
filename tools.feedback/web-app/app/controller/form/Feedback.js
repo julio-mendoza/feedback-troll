@@ -26,7 +26,15 @@ Ext.define('FBT.controller.form.Feedback', {
     		feedback;
     	
     	formInfo = Ext.create('FBT.model.form.FormInfo', {
-    		title: 'DEmo'
+    		name: 'General Feedback',
+    		title: 'General Feedback',
+    		description: 'This is the General Feedback Form',
+    		enabled: true,
+    		questions: [{
+    			questionText: 'Enter a description:',
+    			type: 'FREE_TEXT',
+    			enabled: true
+    		}]
     	});
     	
     	feedback = Ext.widget('feedback-form', {

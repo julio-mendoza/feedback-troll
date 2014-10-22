@@ -4,14 +4,17 @@ Ext.define('FBT.view.source.FeatureTree', {
 	
 	title: 'Features',
 	tbar: [{
-		text: 'New',
-		action: 'new'
+		tooltip: 'New',
+		action: 'new',
+		glyph: GlyphIcons.newFile
 	}, {
-		text: 'Edit',
-		action: 'edit'
+		tooltip: 'Edit',
+		action: 'edit',
+		glyph: GlyphIcons.editFile
 	}, {
-		text: 'Delete',
-		action: 'delete'
+		tooltip: 'Delete',
+		action: 'delete',
+		glyph: GlyphIcons.delFile
 	}],
 	
 	retrieveSelectedItem: function () {

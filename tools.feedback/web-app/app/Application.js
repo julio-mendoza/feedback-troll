@@ -16,6 +16,8 @@ Ext.define('FBT.Application', {
         // TODO: add stores here
     ],
     
+    requires: ['FBT.ux.glyph.Icons'],
+    
     launch: function (profile) {
     	var me = this;
     	

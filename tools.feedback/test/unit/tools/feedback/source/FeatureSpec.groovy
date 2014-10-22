@@ -16,5 +16,6 @@ class FeatureSpec extends Specification {
     }
 
     void "test something"() {
+		assertEquals 0, 0
     }
 }
